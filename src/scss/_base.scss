@@ -1,0 +1,166 @@
+// Your own styles
+
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+.navbar{
+    background-color: #edeae2;
+    padding:0;
+    img{
+        width:150px;
+        height:150px;
+    }
+    nav{
+        width: 60%;
+        margin:0;
+        padding: 0;
+        list-style: none;
+         display:flex;
+        justify-content:space-around;
+
+        a{
+            color:black;
+            text-decoration: none;
+           /*  padding:2em; */
+
+            &:hover{
+                transition: 0.4s all;
+                background: #033;
+                border-radius: 16px;
+                color: #fff;
+                z-index: 2;
+            }
+        }
+    }
+
+}
+
+.banner{
+
+    height:75vh;
+
+    background-image: url('/img/juggler.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    h1{
+        margin:0;
+        padding:0.5em;
+
+    }
+
+    img{
+       margin-top:-2.5em;
+        width:250px;
+        height:250px;
+    }
+}
+
+ h2, p{
+
+    text-align:center;
+    margin:0;
+    padding: 0.3em;
+}
+
+
+
+.intro{
+    
+        p{
+            margin: 0 0 2em 0;
+            text-align: center;
+            border:2px solid black;
+            background-color: aliceblue;
+            border-radius: 15px;
+
+        }
+}
+
+
+.skills{
+    p{
+        text-align: left;
+    }
+}
+
+
+.bar{
+    margin:3px;
+    height: 5em;
+    width: 80%;
+    border:2px solid black;
+    border-radius: 10px;
+
+    .name{
+        /* height:5em; */
+        width:20%;
+        border-right: 1px solid black;
+        text-align: center;
+        padding: 1.5em;
+        color: white;
+        background-color: black;
+    }
+
+     .cont2{
+        width: 100%;
+    }
+
+    .prog1{
+
+        height:5em;
+        width:60%;
+        background-color: #7a9700;
+        border-right: 1px solid black;
+
+    }
+
+    .prog2{
+
+        height:5em;
+        width:40%;
+        background-color: #7a9700;
+        border-right: 1px solid black;
+    }
+
+    .prog3{
+
+        height:5em;
+        width:10%;
+        background-color: #7a9700;
+        border-right: 1px solid black;
+    }
+
+    .label{
+        height:5em;
+        text-align: left;
+        padding: 1.5em;
+    }
+}
+
+
+.about-me{
+
+    background-color: black;
+}
+
+/*     border-radius: 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+ */
+
+/*  .intro{
+
+    @media all and (max-width:700px) {
+
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-grow: 1;
+        
+    }
+} */
