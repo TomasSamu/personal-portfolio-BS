@@ -14,15 +14,13 @@ p{
 }
 
 .navbar{
+    min-height: 15vh;
     border-bottom: 2px black solid;
     background-color: #edeae2;
     padding:0;
-    img{
-        width:150px;
-        height:150px;
-    }
+
     nav{
-        width: 60%;
+        width: 80%;
         margin:0;
         padding: 0;
         list-style: none;
@@ -61,7 +59,7 @@ p{
     }
 
     img{
-       margin-top:-2.5em;
+       margin-top:0em;
         width:250px;
         height:250px;
     }
@@ -72,12 +70,13 @@ p{
     text-align:center;
     margin:0;
     padding: 0.3em;
+
 }  
 
 .intro{
 
     border-bottom: 2px black solid;
-    min-height:40vh;
+    min-height:50vh;
             p{
             vertical-align: center;    
             text-align: center;
@@ -93,7 +92,7 @@ p{
 
     border-bottom: 2px black solid;
     background-color:#edeae2;
-    min-height:50vh;
+    min-height:60vh;
 
     p{
         text-align: left;
@@ -215,7 +214,18 @@ p{
 }
 
 .contact-me{
+    
+    background-image: url('/img/juggling-2252028_1280.jpg');
+   /*  background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
     border-bottom: 2px black solid;
     min-height: 60vh;
+    color: white;
+
+    h2{
+        padding:1em;
+    }
 }
