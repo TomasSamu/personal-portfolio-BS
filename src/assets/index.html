@@ -14,24 +14,25 @@
 
     <div class=" navbar container-fluid d-flex justify-content-center">
                 <nav>
-                    <a href="#home">HOME</a>
+                    <a href="#">HOME</a>
+                    <a href="#intro">INTRO</a>
                     <a href="#skills">SKILLS</a>
                     <a href="#portfolio">PORTFOLIO</a>
                     <a href="#about-me">ABOUT-ME</a>
-                    <a href="#contact">CONTACT</a>
                 </nav>
             
     </div>
 
     <section class="banner d-flex flex-column">
         <div class="welcome d-flex justify-content-center">
-            <h1>Meet Tomas! Juggling and IT enthusiast!</h1>   
+            <h1>Meet Tomas! <br> Juggling and IT enthusiast! </h1>   
         </div>
         <div class="logopos d-flex justify-content-center">
             <img src="/img/myLogo.gif" alt="juggler">
         </div>
     </section>
 
+<a name="intro" />
 <section class="intro d-flex flex-column justify-content-around">
     <div class="row p-2">
         <div class="col-md-3">
@@ -64,11 +65,9 @@
     </div>
 </section>
 
-
+<a name="skills" />
     <section class="skills d-flex flex-column justify-content-center">
-
                 <h2>My Skills</h2>
-
              <div class="row d-flex justify-content-center">
                 <div class="bar d-flex flex-row">
                     <div class="name">HTML</div>
@@ -101,10 +100,34 @@
         
     </section>
 
- <section class="about-me d-flex flex-column justify-content-center">
+<a name="portfolio" />
+<section class="portfolio">
+
+    <h2>My portfolio</h2>
+        <div class="row d-flex justify-content-center p-3">
+            <div class="pic col-md-4 p-5">
+                <img src="/img/juggler_2.jpg" class="card-img-top" alt="juggler">
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+
+            <div class="pic col-md-4 p-5">
+                <img src="/img/juggler_2.jpg" class="card-img-top" alt="juggler">
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+
+            <div class="pic col-md-4 p-5">
+                <img src="/img/juggler_2.jpg" class="card-img-top" alt="juggler">
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
+</section>
+
+<a name="about-me" />
+<section class="about-me d-flex flex-column justify-content-center">
     <div class="container-fluid d-flex flex-column align-items-center p-4">
         <h2>About Me</h2>
-        <p>I can do some IT miracles for you. Hit this button and get in touch with me.</p>
+        <p>I can do some IT miracles for you. Contact me via the following links.</p>
 
         <div class="container d-flex justify-content-around p-4">
                 <a href="https://github.com/TomasSamu" target="_tab"><i class="fab fa-github"></i></a>
@@ -115,56 +138,7 @@
     </div>
 </section>
 
-<section class="portfolio">
 
-    <h2>My portfolio</h2>
-        <div class="row d-flex justify-content-center p-3">
-            <div class="pic col-md-4 p-2">
-                <img src="/img/juggler_2.jpg" class="card-img-top" alt="...">
-                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-
-            <div class="pic col-md-4 p-2">
-                    <img src="/img/juggler_2.jpg" class="card-img-top" alt="...">
-                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-
-            <div class="pic col-md-4 p-2">
-                <img src="/img/juggler_2.jpg" class="card-img-top" alt="...">
-                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-        </div>
-
-</section>
-
-<div class="contact-me d-flex flex-column justify-content-center align align-items-center">
-
-    <h2>CONTACT-ME</h2>
-
-    <div class="container d-flex flex-row">
-
-        <form>
-                First name:<br>
-                <input type="text" name="firstname"><br>
-                Last name:<br>
-                <input type="text" name="lastname"><br>
-        </form>
-
-        <form style="padding-left:200px">
-                E-mail:<br>
-                <input type="text" name="email"><br>
-                Phone:<br>
-                <input type="text" name="phone">
-        </form>
-    </div>
-
-    <form class="container">
-            Input Message:<br>
-            <textarea name="text" id="text" cols="100" rows="10">
-            </textarea>
-    </form>
-
-</div>
  
   <script 
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
